@@ -1,5 +1,5 @@
 import React from 'react'
-import './Work.sass'
+import './Work.scss'
 
 const Work = () => {
   return (
