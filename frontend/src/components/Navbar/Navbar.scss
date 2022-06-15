@@ -40,7 +40,8 @@
     li {
       margin: 0 1rem;
       cursor: pointer;
-  
+      font-size: calc( (100vw - 300px)/(2000 - 300) * (16 - 4) + 4px);
+      font-family: var(--font-base);
       flex-direction: column;
   
       div {
