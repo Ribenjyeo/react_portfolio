@@ -30,8 +30,33 @@ const Skills = () => {
       bgColor: "",
     },
     {
-      title: "Vue",
-      imgUrl: images.vue,
+      title: "Git",
+      imgUrl: images.git,
+      bgColor: "",
+    },
+    {
+      title: "Flutter",
+      imgUrl: images.flutter,
+      bgColor: "",
+    },
+    {
+      title: "HTML",
+      imgUrl: images.html,
+      bgColor: "",
+    },
+    {
+      title: "CSS",
+      imgUrl: images.css,
+      bgColor: "",
+    },
+    {
+      title: "NodeJS",
+      imgUrl: images.node,
+      bgColor: "",
+    },
+    {
+      title: "Mui 5",
+      imgUrl: images.mu5,
       bgColor: "",
     },
   ];
@@ -92,17 +117,17 @@ const Skills = () => {
                 <p className="bold-text">{item.year}</p>
               </div>
               <motion.div className="app__skills-exp-works">
-                  <>
-                    <motion.div
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                      className="app__skills-exp-work"
-                      key={index}
-                    >
-                      <h4 className="bold-text">{item.title}</h4>
-                      <p className="p-text">{item.company}</p>
-                    </motion.div>
-                  </>
+                <>
+                  <motion.div
+                    whileInView={{ opacity: [0, 1] }}
+                    transition={{ duration: 0.5 }}
+                    className="app__skills-exp-work"
+                    key={index}
+                  >
+                    <h4 className="bold-text">{item.title}</h4>
+                    <p className="p-text">{item.company}</p>
+                  </motion.div>
+                </>
               </motion.div>
             </motion.div>
           ))}
