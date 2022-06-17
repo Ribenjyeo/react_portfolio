@@ -4,13 +4,13 @@ import { FaFacebookF } from 'react-icons/fa';
 
 const SocialMedia = () => (
   <div className="app__social">
-    <div>
+    <div style={{cursor: 'pointer'}}>
       <BsTwitter />
     </div>
-    <div>
+    <div style={{cursor: 'pointer'}}>
       <FaFacebookF />
     </div>
-    <div>
+    <div style={{cursor: 'pointer'}}>
       <BsInstagram />
     </div>
   </div>
