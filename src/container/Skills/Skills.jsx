@@ -95,7 +95,7 @@ const Skills = () => {
                   <>
                     <motion.div
                       whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration:  }}
+                      transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
                       key={index}
                     >
