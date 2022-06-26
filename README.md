@@ -1,4 +1,4 @@
-# To view the operation of the react application
+# To browse the work using git pages
 
 Follow the link: https://ribenjyeo.github.io/react_portfolio/
 
