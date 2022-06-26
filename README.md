@@ -1,6 +1,6 @@
 # To view the operation of the react application
 
-https://ribenjyeo.github.io/react_portfolio/
+Follow the link: https://ribenjyeo.github.io/react_portfolio/
 
 # Getting Started with Create React App
 
